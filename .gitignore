@@ -1,1 +1,95 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for web tests
+.sass-cache
+connect.lock
+.nyc_output
+coverage/
+*.lcov
+
+# Coverage directory used by tools like istanbul
+coverage/lcov-report
+
+# Grunt intermediate storage (used by the livereload task: grunt-contrib-watch)
+.grunt
+
+# Bower dependency directory (you might still want to keep this!)
+bower_components
+
+# Gitkeep for test fixtures
+source/fixture/.gitkeep
+
+# Browser-sync files
+.browser-sync*
+
+# JSHint configuration files
+.jshintrc
+
+# PostgreSQL node-pre-gyp binaries
+lib/binding/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# DynamoDB Local files
+.dynamodb/
+
+# Files that should be checked into git
+!.env.example
+!.env.sample
+!*env.template
+!*env.default
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+out/
+.nuxt
+.next
+public/dist
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# Process files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
